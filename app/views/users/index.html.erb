@@ -4,8 +4,8 @@
 <%= will_paginate %>
 
 <ul class="users">
-#Rails sees that @users is a list of objects and will automatically iterate through them.
-#And then, rails automatically looks for a partial called _user.html.erb to render each one.
+<% #Rails sees that @users is a list of objects and will automatically iterate through them. %>
+<% #And then, rails automatically looks for a partial called _user.html.erb to render each one. %>
 	<%= render @users %>
 </ul>
 
